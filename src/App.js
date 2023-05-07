@@ -7,7 +7,7 @@ import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="App">
+    <div className="bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-gray-200 via-gray-400 to-gray-600">
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />

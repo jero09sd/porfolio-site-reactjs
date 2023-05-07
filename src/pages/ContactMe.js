@@ -29,14 +29,14 @@ const ContactMe = () => {
       );
   };
   return (
-    <div className="flex justify-center bg-[conic-gradient(at_left,_var(--tw-gradient-stops))] from-gray-200 via-gray-400 to-gray-600">
+    <div className="flex justify-center items-center overflow-hidden">
       <div className="max-w-screen-2xl">
         {" "}
         <ToastContainer />
         <div className="min-h-full">
-          <section class=" py-10 lg:py-[20rem] overflow-hidden">
+          <section class=" py-10 lg:py-[20rem]">
             <div>
-              <div class="flex flex-wrap lg:justify-between -mx-4">
+              <div class="flex flex-wrap  lg:justify-between -mx-4">
                 <div class="w-full lg:w-1/2 xl:w-6/12 px-4 ">
                   <div class=" mb-12 ml-10 lg:mb-0">
                   

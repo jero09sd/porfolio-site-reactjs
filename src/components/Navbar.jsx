@@ -9,7 +9,6 @@ import {
 import { RiMessage2Fill } from "react-icons/ri";
 import { SiMinutemailer } from "react-icons/si";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -18,7 +17,7 @@ const Navbar = () => {
   };
   return (
     <div>
-      <nav className="bg-[#000300] w-full border-b drop-shadow-xl fixed border-black">
+      <nav className="bg-[#000300] z-50 w-full border-b drop-shadow-xl fixed border-black">
         <div className="flex justify-between items-center h-16 max-w-screen-2xl mx-auto px-4">
           <div className="flex">
             <div className=" sm:-my-px sm:flex">
@@ -50,7 +49,7 @@ const Navbar = () => {
                 <div className="mx-1">
                   <RiMessage2Fill />
                 </div>
-                About{" "}
+                About Me{" "}
               </Link>
             </li>
             <li className="p-4">
