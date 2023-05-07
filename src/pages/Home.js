@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
+import BGprofile from '../images/Profilebg.png'
 
 const Home = () => {
   return (
@@ -32,6 +33,9 @@ const Home = () => {
               voluptates illo voluptatibus.
             </p>
             <div></div>
+          </div>
+          <div className="md:w-1/2">
+            <img src={BGprofile}/>
           </div>
         </div>
       </div>

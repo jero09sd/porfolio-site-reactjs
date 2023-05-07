@@ -155,8 +155,8 @@ const ContactMe = () => {
                           type="submit"
                           value="Send"
                           className="
-                                            relative rounded-md m-4 text-gray-300 hover:text-white font-bold text-center p-2 px-4 bg-[#000300]  transition-all duration-500
-                                            before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#0f041a] before:transition-all
+                                            relative rounded-md m-4 text-black hover:bg-black hover:text-white font-bold text-center p-2 px-4 bg-[#fff]  transition-all duration-500
+                                            before:absolute before:top-0 before:left-0 before:w-full before:h-full before:bg-[#fff] before:transition-all
                                             before:duration-300 before:opacity-20 before:hover:opacity-0 before:hover:scale-50
                                             after:absolute after:top-0 after:left-0 after:w-full after:h-full after:opacity-0 after:transition-all after:duration-300
                                             after:border after:border-white/50 after:scale-125 after:hover:opacity-100 after:hover:scale-100
