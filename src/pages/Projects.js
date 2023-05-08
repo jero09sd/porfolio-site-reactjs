@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Profile from "../images/96870420_1448649968648130_7568566325056897024_n.jpg";
 
 const Projects = () => {
   return (
@@ -29,22 +30,21 @@ const Projects = () => {
                       </Link>
 
                       <p class="mt-3 text-sm  md:text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Iure veritatis sint autem nesciunt, laudantium quia
-                        tempore delect
+                        Created a copy of the{" "}
+                        <Link
+                          className="hover:text-blue-700 hover:font-bold hover:underline"
+                          to={"https://www.bilibili.tv/en"}
+                        >
+                          BiliBili
+                        </Link>{" "}
+                        a video streaming website that originated from China and
+                        was released Globally a few years ago.
                       </p>
-
-                      <a
-                        href="#"
-                        class="inline-block mt-2 text-gray-600 underline hover:text-[#000300]"
-                      >
-                        Read more
-                      </a>
 
                       <div class="flex items-center mt-6">
                         <img
                           class="object-cover object-center w-10 h-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                          src={Profile}
                           alt=""
                         />
 
@@ -76,22 +76,25 @@ const Projects = () => {
                       </Link>
 
                       <p class="mt-3 text-sm  md:text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Iure veritatis sint autem nesciunt, laudantium quia
-                        tempore delect
+                        This Project was built with a new feature of Laravel.
+                        The Laravel Breeze and React which offers the best of
+                        both worlds. Inertiajs bridges the gap between your
+                        Laravel application and your modern React frontend,
+                        allowing you to build full-fledged, modern frontends
+                        using React while leveraging Laravel routes and
+                        controllers for routing, data hydration, and
+                        authentication — all within a single code repository.
+                        With this approach, you can enjoy the full power of both
+                        Laravel and React without crippling the capabilities of
+                        either tool. This Project was made for my Capstone
+                        Presentation, and for my future plans, though I consider
+                        this a bit incomplete, I still managed to succesfully
+                        make my admin, welcome, and homepages within a week.
                       </p>
-
-                      <a
-                        href="#"
-                        class="inline-block mt-2 text-gray-600 underline hover:text-[#000300]"
-                      >
-                        Read more
-                      </a>
-
                       <div class="flex items-center mt-6">
                         <img
                           class="object-cover object-center w-10 h-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                          src={Profile}
                           alt=""
                         />
 
@@ -131,22 +134,16 @@ const Projects = () => {
                       </Link>
 
                       <p class="mt-3 text-sm  md:text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Iure veritatis sint autem nesciunt, laudantium quia
-                        tempore delect
+                        Collaborated with a group to make this Product
+                        management system that will be used by one of my
+                        groupmates for his coffee business. I did my part and
+                        made the entire Front End of this website.
                       </p>
-
-                      <a
-                        href="#"
-                        class="inline-block mt-2 text-gray-600 underline hover:text-[#000300]"
-                      >
-                        Read more
-                      </a>
 
                       <div class="flex items-center mt-6">
                         <img
                           class="object-cover object-center w-10 h-10 rounded-full"
-                          src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                          src={Profile}
                           alt=""
                         />
 
@@ -154,7 +151,9 @@ const Projects = () => {
                           <h1 class="text-m font-extrabold text-gray-900">
                             Jerwyn Peloton Cubao
                           </h1>
-                          <p class="text-sm text-gray-800">Lead Developer</p>
+                          <p class="text-sm text-gray-800">
+                            Front End Developer
+                          </p>
                         </div>
                       </div>
                     </div>

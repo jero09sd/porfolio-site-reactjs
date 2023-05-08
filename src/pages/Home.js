@@ -32,14 +32,14 @@ const Home = () => {
                 />
               </h1>
             </div>
-            <p className="text-gray-900 text-sm md:text-lg mb-10 font-semibold">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus esse nam est ullam ducimus alias consequuntur
-              recusandae eaque, vel, voluptates, in molestiae? Aut perspiciatis
-              pariatur consequatur inventore repudiandae in nulla architecto!
-              Dicta rerum inventore voluptatibus assumenda totam, facere sint
-              dolore similique ab? Neque veniam obcaecati blanditiis quidem
-              voluptates illo voluptatibus.
+            <p className="text-gray-900 md:w-[40rem] text-sm md:text-lg mb-10 font-semibold">
+              A passionate web developer who loves building beautiful and
+              functional websites.With a passion for innovation, I'm always
+              excited to take on new challenges and help clients achieve their
+              goals. I'm dedicated to producing top-notch work and going above
+              and above clients expectations. I have faith in my abilities
+              to design unique solutions that satisfy the particular needs of
+              each client and assist them in achieving their business goals.
             </p>
             <div></div>
           </div>
@@ -48,7 +48,10 @@ const Home = () => {
               src={BGprofile}
               className="xl:block hidden overflow-hidden h-screen sticky"
             />
-            <img src={aProfile} className="md:block xl:hidden items-center hidden sticky h-full" />
+            <img
+              src={aProfile}
+              className="md:block xl:hidden items-center hidden sticky h-full"
+            />
           </div>
         </div>
       </div>

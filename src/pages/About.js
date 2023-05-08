@@ -5,7 +5,7 @@ import {
   FaLinkedin,
   FaFacebookSquare,
 } from "react-icons/fa";
-import { BsArrowReturnRight} from "react-icons/bs";
+import { BsArrowReturnRight } from "react-icons/bs";
 import aProfile from "../images/96870420_1448649968648130_7568566325056897024_n.jpg";
 import { Link } from "react-router-dom";
 
@@ -53,11 +53,16 @@ const About = () => {
                       If you want to check my other Projects that I did alone
                       and Projects that I have collaborated with a group or a
                       team, the link is provided below.
-                      <Link className="flex  hover:text-blue-600" to="/Projects">
+                      <Link
+                        className="flex  hover:text-blue-600"
+                        to="/Projects"
+                      >
                         {" "}
-                        <BsArrowReturnRight size={20}/>
-                        <span className="text-xs font-bold underline"> to projects </span>
-                     
+                        <BsArrowReturnRight size={20} />
+                        <span className="text-xs font-bold underline">
+                          {" "}
+                          to projects{" "}
+                        </span>
                       </Link>
                     </p>
                     <div className="mt-10">
@@ -75,7 +80,12 @@ const About = () => {
                           Contact Me
                         </button>
                       </Link>
-                      <p className="text-sm"> If ever you find this portfolio intereting don't hesitate to get in touch with me by sending me an Email. Please click the button above.</p>
+                      <p className="text-sm">
+                        {" "}
+                        If ever you find this portfolio intereting don't
+                        hesitate to get in touch with me by sending me an Email.
+                        Please click the button above.
+                      </p>
                     </div>
 
                     <hr
@@ -128,7 +138,17 @@ const About = () => {
                 <h1 className="mx-10 text-3xl font-extrabold">MY SKILLS</h1>
                 <div className="flex flex-col md:flex-row justify-center items-center md:items-start md:justify-between w-full">
                   <div className="mt-10 font-bold text-xl">
-                    <h1> FRONT END SKILLS</h1>
+                    <h1>
+                      {" "}
+                      FRONT END SKILLS
+                      <hr
+                        style={{
+                          color: "#000300",
+                          backgroundColor: "#000300",
+                          height: 1,
+                        }}
+                      />
+                    </h1>
                     <div className="uppercase mt-5 flex flex-col text-base">
                       <h2>html</h2>
 
@@ -171,7 +191,17 @@ const About = () => {
                     </div>
                   </div>
                   <div className="mt-10 font-bold text-xl">
-                    <h1> BACK END SKILLS</h1>
+                    <h1>
+                      {" "}
+                      BACK END SKILLS
+                      <hr
+                        style={{
+                          color: "#000300",
+                          backgroundColor: "#000300",
+                          height: 1,
+                        }}
+                      />
+                    </h1>
                     <div className="uppercase mt-5 flex flex-col text-base">
                       <h2>laravel</h2>
 
@@ -194,7 +224,17 @@ const About = () => {
                     </div>
                   </div>
                   <div className="mt-10 font-bold text-xl">
-                    <h1> OTHER SKILLS</h1>
+                    <h1>
+                      {" "}
+                      OTHER SKILLS
+                      <hr
+                        style={{
+                          color: "#000300",
+                          backgroundColor: "#000300",
+                          height: 1,
+                        }}
+                      />
+                    </h1>
                     <div className="uppercase mt-5 flex flex-col text-base">
                       <h2>photoshop</h2>
 
@@ -237,7 +277,17 @@ const About = () => {
                     </div>
                   </div>
                   <div className="mt-10 font-bold text-xl">
-                    <h1> SOFT SKILLS</h1>
+                    <h1>
+                      {" "}
+                      SOFT SKILLS
+                      <hr
+                        style={{
+                          color: "#000300",
+                          backgroundColor: "#000300",
+                          height: 1,
+                        }}
+                      />
+                    </h1>
                     <div className="uppercase mt-5 flex flex-col text-base">
                       <h2>communication</h2>
 
