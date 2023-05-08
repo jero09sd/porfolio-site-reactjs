@@ -5,6 +5,7 @@ import {
   FaLinkedin,
   FaFacebookSquare,
 } from "react-icons/fa";
+import { BsArrowReturnRight} from "react-icons/bs";
 import aProfile from "../images/96870420_1448649968648130_7568566325056897024_n.jpg";
 import { Link } from "react-router-dom";
 
@@ -35,17 +36,29 @@ const About = () => {
                   <div class="md:7/12 lg:w-6/12">
                     <h2 class="text-2xl font-bold md:text-4xl"></h2>
                     <p class="mt-1 ">
-                      Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                      Eum omnis voluptatem accusantium nemo perspiciatis
-                      delectus atque autem! Voluptatum tenetur beatae unde
-                      aperiam, repellat expedita consequatur! Officiis id
-                      consequatur atque doloremque!
+                      I am Full Stacked Web Developer who specialize on the
+                      Front End and has basic knowledge of Back End. I am also a
+                      Graphic Designer, and I am sure with my skills in CSS and
+                      other front end frameworks combined with my graphic
+                      designing skills I can do and make a website looks better
+                      and artistic.
                     </p>
                     <p class="mt-4 ">
                       {" "}
-                      Nobis minus voluptatibus pariatur dignissimos libero
-                      quaerat iure expedita at? Asperiores nemo possimus
-                      nesciunt dicta veniam aspernatur quam mollitia.
+                      Though I can't showcase my skill in designing through this
+                      portfolio due to lack of time and focus to think more of
+                      color combinations, and designs. So I decided to keep this
+                      site Simple and responsive, I am proud to present my
+                      portfolio website that I made and deployed within a day.
+                      If you want to check my other Projects that I did alone
+                      and Projects that I have collaborated with a group or a
+                      team, the link is provided below.
+                      <Link className="flex  hover:text-blue-600" to="/Projects">
+                        {" "}
+                        <BsArrowReturnRight size={20}/>
+                        <span className="text-xs font-bold underline"> to projects </span>
+                     
+                      </Link>
                     </p>
                     <div className="mt-10">
                       <Link to="/ContactMe">
@@ -62,6 +75,7 @@ const About = () => {
                           Contact Me
                         </button>
                       </Link>
+                      <p className="text-sm"> If ever you find this portfolio intereting don't hesitate to get in touch with me by sending me an Email. Please click the button above.</p>
                     </div>
 
                     <hr
@@ -108,7 +122,7 @@ const About = () => {
                   style={{
                     color: "#000300",
                     backgroundColor: "#000300",
-                    height: 1
+                    height: 1,
                   }}
                 />
                 <h1 className="mx-10 text-3xl font-extrabold">MY SKILLS</h1>

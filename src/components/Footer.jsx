@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <div class="w-full mx-auto">
+      <div class="w-full mx-auto z-50">
         <footer class="p-4 shadow md:flex md:items-center md:justify-between md:p-6 bg-[#000300]">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}

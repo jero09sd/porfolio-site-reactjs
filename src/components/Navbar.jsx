@@ -92,7 +92,7 @@ const Navbar = () => {
           >
             <div className="sm:-my-px mt-5 mx-8">
               <Link to="/">
-                <h1 className="w-full font-extrabold font-untouched text-xl  lg:text-3xl bg-gradient-to-br from-[#2470c6]  via-[#1feffe] to-white bg-clip-text text-transparent">
+                <h1 className="w-full font-extrabold font-untouched text-xl  lg:text-3xl bg-gradient-to-bl from-gray-200 via-gray-400 to-gray-600 bg-clip-text text-transparent">
                   Portfolio
                 </h1>
               </Link>

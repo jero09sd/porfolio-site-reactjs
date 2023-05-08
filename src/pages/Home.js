@@ -1,6 +1,6 @@
 import React from "react";
 import Typed from "react-typed";
-import BGprofile from '../images/Profilebg.png'
+import BGprofile from "../images/ProfileGrayscalebg.png";
 import aProfile from "../images/96870420_1448649968648130_7568566325056897024_n.jpg";
 
 const Home = () => {
@@ -15,15 +15,22 @@ const Home = () => {
             <span className="font-bold">
               THANK YOU FOR TAKING THE TIME TO CHECK MY PORTFOLIO.
             </span>
-            <img src={aProfile} className="md:hidden"/>
+            <img src={aProfile} className="md:hidden" />
             <div>
-              <h1 className="md:text-5xl text-xl font-extrabold md:py-10"> I AM  <Typed
-                strings={["JERWYN PELOTON CUBAO"," A GRAPHIC ARTIST","A FULL STACK WEB DEVELOPER"]}
-                typeSpeed={80}
-                backSpeed={50}
-                loop
-              /></h1>
-            
+              <h1 className="md:text-5xl text-xl font-extrabold md:py-10">
+                {" "}
+                I AM{" "}
+                <Typed
+                  strings={[
+                    "JERWYN PELOTON CUBAO",
+                    " A GRAPHIC ARTIST",
+                    "A FULL STACK WEB DEVELOPER",
+                  ]}
+                  typeSpeed={80}
+                  backSpeed={50}
+                  loop
+                />
+              </h1>
             </div>
             <p className="text-gray-900 text-sm md:text-lg mb-10 font-semibold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -36,8 +43,12 @@ const Home = () => {
             </p>
             <div></div>
           </div>
-          <div className="md:w-1/2">
-            <img src={BGprofile} className="md:block hidden w-full opacity-70"/>
+          <div className="md:w-1/2 -z-0">
+            <img
+              src={BGprofile}
+              className="xl:block hidden overflow-hidden h-screen sticky"
+            />
+            <img src={aProfile} className="md:block xl:hidden items-center hidden sticky h-full" />
           </div>
         </div>
       </div>
