@@ -1,6 +1,7 @@
 import React from "react";
 import Typed from "react-typed";
 import BGprofile from '../images/Profilebg.png'
+import aProfile from "../images/96870420_1448649968648130_7568566325056897024_n.jpg";
 
 const Home = () => {
   return (
@@ -14,8 +15,9 @@ const Home = () => {
             <span className="font-bold">
               THANK YOU FOR TAKING THE TIME TO CHECK MY PORTFOLIO.
             </span>
+            <img src={aProfile} className="md:hidden"/>
             <div>
-              <h1 className="text-5xl font-extrabold py-10"> I AM  <Typed
+              <h1 className="md:text-5xl text-xl font-extrabold md:py-10"> I AM  <Typed
                 strings={["JERWYN PELOTON CUBAO"," A GRAPHIC ARTIST","A FULL STACK WEB DEVELOPER"]}
                 typeSpeed={80}
                 backSpeed={50}
@@ -23,7 +25,7 @@ const Home = () => {
               /></h1>
             
             </div>
-            <p className="text-gray-900 font-bold">
+            <p className="text-gray-900 text-sm md:text-lg mb-10 font-semibold">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Temporibus esse nam est ullam ducimus alias consequuntur
               recusandae eaque, vel, voluptates, in molestiae? Aut perspiciatis
@@ -35,7 +37,7 @@ const Home = () => {
             <div></div>
           </div>
           <div className="md:w-1/2">
-            <img src={BGprofile}/>
+            <img src={BGprofile} className="md:block hidden w-full opacity-70"/>
           </div>
         </div>
       </div>

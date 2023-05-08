@@ -38,7 +38,7 @@ const ContactMe = () => {
             <div>
               <div class="flex flex-wrap  lg:justify-between -mx-4">
                 <div class="w-full lg:w-1/2 xl:w-6/12 px-4 ">
-                  <div class=" mb-12 ml-10 lg:mb-0">
+                  <div class="mt-16 mb-12 mx-2 md:ml-10 lg:mb-0">
                   
                     <h2
                       class="
@@ -62,8 +62,8 @@ const ContactMe = () => {
                     </p>
                   </div>
                 </div>
-                <div class="w-full lg:w-1/2 xl:w-5/12 px-4 drop-shadow-3xl mr-10">
-                  <div className="bg-black/90 backdrop-blur-md relative  rounded-lg p-8 sm:p-12 shadow-lg">
+                <div class="w-full lg:w-1/2 xl:w-5/12 px-4 drop-shadow-3xl mx-1 md:mr-10">
+                  <div className="bg-black/90 backdrop-blur-md relative  rounded-lg pt-8 p-4 sm:p-12 shadow-lg">
                     <form ref={form} onSubmit={sendEmail}>
                       <div class="mb-6">
                         <input
