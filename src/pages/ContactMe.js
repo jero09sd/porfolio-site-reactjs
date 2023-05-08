@@ -39,7 +39,6 @@ const ContactMe = () => {
               <div class="flex flex-wrap  lg:justify-between -mx-4">
                 <div class="w-full lg:w-1/2 xl:w-6/12 px-4 ">
                   <div class="mt-16 mb-12 mx-2 md:ml-10 lg:mb-0">
-                  
                     <h2
                       class="
                   text-[#000300]
@@ -52,13 +51,14 @@ const ContactMe = () => {
                   xl:text-[40px]
                   "
                     >
-                     CONTACT ME
+                      CONTACT ME
                     </h2>
                     <p class="text-base text-body-color leading-relaxed mb-9">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eius tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim adiqua minim veniam quis nostrud
-                      exercitation ullamco
+                      Thank you for your interest in my portfolio! Please fill
+                      the form to get in touch with me. I'll do my best to get
+                      back to you as fast as I can. You can also connect with me
+                      on social media by clicking on the icons that is provided
+                      on the Footer.
                     </p>
                   </div>
                 </div>

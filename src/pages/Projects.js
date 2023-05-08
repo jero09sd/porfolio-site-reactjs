@@ -1,6 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Profile from "../images/96870420_1448649968648130_7568566325056897024_n.jpg";
+import teambangan from "../images/teambangan.png";
+import triestis from "../images/triestes.png";
+import BiliBili from "../images/BiliBili.png";
 
 const Projects = () => {
   return (
@@ -8,16 +11,16 @@ const Projects = () => {
       <div className="max-w-screen-2xl">
         <div className="min-h-screen flex justify-center h-max w-screen">
           <div className="flex flex-col text-[#000300] justify-center items-center">
-            <h1 className="uppercase text-4xl py-20 font-extrabold">
+            <h1 className="uppercase text-4xl py-5 pt-20 md:py-20 font-extrabold">
               projects
             </h1>
             <div>
               <section class="mx-10">
-                <div class="container px-6 py-10 mx-auto">
+                <div class="container px-6 md:py-10 mx-auto">
                   <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                     <img
                       class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96"
-                      src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                      src={BiliBili}
                       alt=""
                     />
 
@@ -108,7 +111,7 @@ const Projects = () => {
                     </div>
                     <img
                       class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96"
-                      src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                      src={triestis}
                       alt=""
                     />
                   </div>
@@ -121,7 +124,7 @@ const Projects = () => {
                   <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                     <img
                       class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96"
-                      src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                      src={teambangan}
                       alt=""
                     />
 

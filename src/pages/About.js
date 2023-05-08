@@ -50,6 +50,8 @@ const About = () => {
                       color combinations, and designs. So I decided to keep this
                       site Simple and responsive, I am proud to present my
                       portfolio website that I made and deployed within a day.
+                      This portfolio will grow as I grow, and designs will be
+                      updated to make this Portfolio fit for a Graphic Designer.
                       If you want to check my other Projects that I did alone
                       and Projects that I have collaborated with a group or a
                       team, the link is provided below.
