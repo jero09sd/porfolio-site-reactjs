@@ -5,7 +5,7 @@ import aProfile from "../images/96870420_1448649968648130_7568566325056897024_n.
 
 const Home = () => {
   return (
-    <div className="flex">
+    <div className="flex overflow-hidden">
       <div className="max-w-screen-2xl">
         <div className="min-h-screen flex h-max w-screen">
           <div className="flex flex-col w-full md:w-1/2 px-10">
@@ -37,9 +37,9 @@ const Home = () => {
               functional websites.With a passion for innovation, I'm always
               excited to take on new challenges and help clients achieve their
               goals. I'm dedicated to producing top-notch work and going above
-              and above clients expectations. I have faith in my abilities
-              to design unique solutions that satisfy the particular needs of
-              each client and assist them in achieving their business goals.
+              clients expectations. I have faith in my abilities to design
+              unique solutions that satisfy the particular needs of each client
+              and assist them in achieving their business goals.
             </p>
             <div></div>
           </div>

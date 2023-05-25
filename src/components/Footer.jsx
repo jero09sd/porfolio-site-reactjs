@@ -10,19 +10,19 @@ import {
 const Footer = () => {
   return (
     <div>
-      <div class="w-full mx-auto z-50">
-        <footer class="p-4 shadow md:flex md:items-center md:justify-between md:p-6 bg-[#000300]">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+      <div className="w-full mx-auto z-50">
+        <footer className="p-4 shadow md:flex md:items-center md:justify-between md:p-6 bg-[#000300]">
+          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
             © 2023{" "}
             <Link
               to={"#"}
-              class="border-b border-transparent hover:border "
+              className="border-b border-transparent hover:border "
               target="_blank"
             >
               Jerwyn Portfolio
             </Link>
           </span>
-          <ul class="flex flex-wrap items-center text-white mt-3 sm:mt-0">
+          <ul className="flex flex-wrap items-center text-white mt-3 sm:mt-0">
             <li className="mx-5">
               <Link to={"https://www.facebook.com/GMjero7"}>
                 {" "}
